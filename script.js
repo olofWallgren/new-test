@@ -10,5 +10,7 @@ function getRandomNumber(){
 }
 //helper function
 function addNumberToPage(number){
-    console.log(number)
+    const div = document.getElementById('box')
+    div.append(number + ', ');
+    console.log(number,div)
 }
